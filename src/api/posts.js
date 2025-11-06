@@ -1,4 +1,4 @@
-// Use VITE_API_URL (set in Render static site env) or fall back to same-origin
+// use VITE_API_URL (set in Render static site environment) or fall back to same-origin
 const API_BASE = import.meta.env.VITE_API_URL || '';
 const API_PREFIX = `${API_BASE}/api/posts`;
 
